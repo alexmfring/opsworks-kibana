@@ -29,7 +29,7 @@
 install_type = node['kibana']['install_type']
 
 kibana_user = node['kibana']['user']
-kibana_user kibana_user do
+kibana_user do
   name kibana_user
   group kibana_user
   home node['kibana']['install_dir']
